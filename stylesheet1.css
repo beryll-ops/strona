@@ -23,3 +23,7 @@ body{
 .dropdown1:hover .dropdown1-content {
   display: block;
 }
+
+.dropdown1-content a {
+  color: black;
+}
