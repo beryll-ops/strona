@@ -1,8 +1,17 @@
 body{
-  background: url(5ea12b2caeee9_o_original.png) no-repeat top fixed ;
+  background-image: url(Miedzychód-z-lotu-ptaka.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top,center;
+  background-size: 100%;
+  background-clip: content-box;
+  background-origin: content-box;
 }
 
+
 .dropdown1 {
+  position: fixed;
+
   font-style: normal;
   font-size: 12;
   font-family: Arial, sans-serif;
