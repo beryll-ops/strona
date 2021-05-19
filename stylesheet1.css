@@ -8,7 +8,7 @@
   background-origin: ;
 }
 /* sekcja przycisków */
-.menu1 {
+.menu1 , .menu2 , .menu3 , .menu4{
   position: fixed;
 
   font-style: normal;
@@ -17,7 +17,7 @@
   position: relative;
   display: inline-block;
 }
-.menu2 {
+/*.menu2 {
   position: fixed;
 
   font-style: normal;
@@ -43,9 +43,9 @@
   font-family: Arial, sans-serif;
   position: relative;
   display: inline-block;
-}
+}*/
 /* sekcja rozwijanego gówna */
-.menu-content1 {
+.menu-content1 /*, .menu-content2 , .menu-content3 , .menu-content4*/{
   left: 0;
   display: none;
   position: absolute;
@@ -115,7 +115,7 @@
   color: black;
 }
 /* wyglad przyciskow */
-.dropbutton1 {
+.dropbutton1 , .dropbutton2 , .dropbutton3 , .dropbutton4{
   background-color: #696969;
   color: white;
   padding: 16px;
@@ -123,7 +123,7 @@
   border: none;
   cursor: auto;
 }
-.dropbutton2 {
+/*.dropbutton2 {
   background-color: #696969;
   color: white;
   padding: 16px;
@@ -146,7 +146,7 @@
   font-size: 16px;
   border: none;
   cursor: auto;
-}
+}*/
 /* tresc */
 .tresc {
   background-color: #FFEBAD;
@@ -161,9 +161,14 @@
   background-position: center;
   max-width: 60%;
   text-align: center;
+  margin-left: 120px;
 }
 .tresc-1 {
   font-style: normal;
   font-family: sans-serif, Arial;
   background-position: center;
+  margin: 120px;
+  text-overflow: scroll;
+  max-width: 50%;
+
 }
