@@ -1,0 +1,231 @@
+.tlo {
+  background-image: url(Miedzychod-z-lotu-ptaka.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top, center;
+  background-size: 100%;
+}
+
+
+
+/*>>>>>>>>>>>>>>>>>>>>>>>>> SEKCJA MENU <<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+/* tło dla przycisków */
+.nav {
+  background-color: yellow;
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* ułożenie przycisków */
+.li1 , .li2 , .li3 , .li4 {
+  display: inline;
+  font-size: 12;
+  padding: 20px;
+  position: fixed;
+  font-style: normal;
+  font-family: Arial, sans-serif;
+}
+
+/* wygląd przycisków */
+.dropbutton1 , .dropbutton2 , .dropbutton3 , .dropbutton4 {
+  background-color: #696969;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: auto;
+}
+
+/* pokazywanie listy po najechaniu */
+.li1:hover .menu-content1 {
+  display: block;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>Treść<<<<<<<<<<<<<<<<<<<<<<<<<< */
+.tresc {
+  background-color: #FFEBAD;
+  background-position: center;
+  max-width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.naglowek-1{
+  font-style: normal;
+  font-family: sans-serif, Arial;
+  background-position: center;
+  max-width: 60%;
+  text-align: center;
+  margin-left: 120px;
+}
+.tresc-1 {
+  font-style: normal;
+  font-family: sans-serif, Arial;
+  background-position: center;
+  margin: 120px;
+  text-overflow: scroll;
+  max-width: 50%;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>> ZEGAR <<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+@keyframes clock-animation {
+	0% {
+		background: #3e5afb;
+	}
+
+	50% {
+		background: #3e5;
+	}
+
+	100% {
+		background: yellow;
+	}
+}
+.clock-container {
+	width: 250px;
+	height: 250px;
+	border: 6px solid rgb(133, 133, 133);
+	border-radius: 50%;
+	position: relative;
+	background: #fff;
+}
+.clock-container::after {
+	content: "";
+	position: absolute;
+	width: 15px;
+	height: 15px;
+	background: rgb(133, 133, 133);
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+}
+.clock-number {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.clock-number:after {
+	content: "";
+	position: absolute;
+	height: 13px;
+	width: 3px;
+	top: 13%;
+	background: #000;
+}
+.clock-number>div {
+	padding: 12px;
+}
+.num1 {
+	transform: rotate(30deg)
+}
+.num1>div {
+	transform: rotate(-30deg)
+}
+.num2 {
+	transform: rotate(60deg)
+}
+.num2>div {
+	transform: rotate(-60deg)
+}
+.num3 {
+	transform: rotate(90deg)
+}
+.num3>div {
+	transform: rotate(-90deg)
+}
+.num4 {
+	transform: rotate(120deg)
+}
+.num4>div {
+	transform: rotate(-120deg)
+}
+.num5 {
+	transform: rotate(150deg)
+}
+.num5>div {
+	transform: rotate(-150deg)
+}
+.num6 {
+	transform: rotate(180deg)
+}
+.num6>div {
+	transform: rotate(-180deg)
+}
+.num7 {
+	transform: rotate(210deg)
+}
+.num7>div {
+	transform: rotate(-210deg)
+}
+.num8 {
+	transform: rotate(240deg)
+}
+.num8>div {
+	transform: rotate(-240deg)
+}
+.num9 {
+	transform: rotate(270deg)
+}
+.num9>div {
+	transform: rotate(-270deg)
+}
+.num10 {
+	transform: rotate(300deg)
+}
+.num10>div {
+	transform: rotate(-300deg)
+}
+.num11 {
+	transform: rotate(330deg)
+}
+.num11>div {
+	transform: rotate(-330deg)
+}
+.num12 {
+	transform: rotate(360deg)
+}
+.num12>div {
+	transform: rotate(-360deg)
+}
+.clock-hand {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+.clock-hand>div {
+	left: 50%;
+	bottom: 50%;
+	transform: translateX(-50%);
+	position: absolute;
+	border-radius: 12px;
+}
+.second-hand {
+	height: 32%;
+	width: 1px;
+	background: rgb(0, 0, 0);
+}
+.minute-hand {
+	height: 30%;
+	width: 4px;
+	background: #000;
+}
+.hour-hand {
+	height: 20%;
+	width: 8px;
+	background: #000;
+}
+.second-hand::after {
+	position: absolute;
+	content: "";
+	border-style: solid;
+	border-width: 4px;
+	border-color: transparent transparent rgb(0, 0, 0) transparent;
+	left: 50%;
+	transform: translateX(-50%);
+	top: -6%;
+}
