@@ -121,7 +121,7 @@
   color: black;
 }
 /* wyglad przyciskow */
-.dropbutton1 , .dropbutton2 , .dropbutton3 , .dropbutton4 , .dropbutton5{
+.dropbutton1 /*, .dropbutton2 , .dropbutton3 , .dropbutton4 , .dropbutton5*/ {
   background-color: #696969;
   color: white;
   padding: 16px;
