@@ -170,6 +170,10 @@
   z-index: 2;
   position: absolute;
 }
+
+.tresc a {
+  color: black;
+}
 .naglowek-1{
   font-style: normal;
   font-family: sans-serif, Arial;
