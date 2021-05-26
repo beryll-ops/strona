@@ -170,7 +170,11 @@
   z-index: 2;
   position: absolute;
 }
-
+.tresc img {
+  max-width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
 .tresc a {
   color: black;
 }
